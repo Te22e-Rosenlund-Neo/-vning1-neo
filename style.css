@@ -1,0 +1,32 @@
+body{
+    background-image:url("./pictures/showcase.jpg") ;
+}
+
+
+.header{
+    color:blue;
+    background-color:yellow;
+    text-align:center;
+    border:2px solid black;
+}
+.artikleholder{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.artikle{
+    background-color: gray;
+    margin-left:50px;
+    margin-right:50px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    border:yellow solid 2px;
+}
+h2{
+    text-align:center;
+}
+.images{
+    display:flex;
+    margin-top:20px;
+    justify-content: center;
+}
